@@ -1,0 +1,54 @@
+***************************************************************************************
+*                                                                                     *
+*                                 US-Android Arduino                                  *
+*                                                                                     *
+***************************************************************************************
+
+************************************** V4 *********************************************
+
+-Ajout de "Setup-US" au démarrage "void setup" de l'arduino pour programmer l'US-SPI
+-Ajout d'un délai pour laisser le temps à l'US-SPI de démarrer avant de faire "Setup-US"
+
+***************************************************************************************
+
+************************************** V3 *********************************************
+
+-Reprise de la V10 du programme arduino cofed qui comprend:
+	-> ajout fonction lecture numero de version FW
+	-> ajout fonction lecture battery
+	-> ajout de toute la base de programmation de SB
+	-> reconnaissance mauvaise en-tête et renvois tableau a la valeur 50
+-Modification du code entrée 255 sur les 5 premiers octets en 110 pour éviter que 
+	les appareils fonctionnent sur toutes les apk.
+
+***************************************************************************************
+
+************************************** V2 *********************************************
+
+-Reprise de la V1 de l'US-Android datant du 15/06/2021
+-Modification du code entrée 255 sur les 5 premiers octets en 110 pour éviter que 
+	les appareils fonctionnent sur toutes les apk.
+-Adaptation du nombres de points ajouté comme la version cofed pour uniformiser la réponse
+-Si mauvais code envoyé pour demande de ascan => renvois un tableau du nombre de points de valeur 50
+
+***************************************************************************************
+
+
+2021 06 15
+-V1 arduino
+-versions précédentes dans dossier archives
+
+21 03 1155
+-envoi du nombre de points par parametre 6 et 7 en mode lecture
+
+
+16 12 1721
+
+- passage a 1024 point
+- une sele boucle pour la lecture des a scans
+16 12 1432
+-passage usb a 1 MOctets
+
+11 12 0746
+
+- creation de code unique pour l'USB et le bluetooth

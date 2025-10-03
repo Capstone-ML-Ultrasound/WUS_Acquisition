@@ -1,0 +1,7 @@
+US-BUILDER
+
+Header : 140,140,140,140,140,
+
+Bluetooth:
+   -Name = US-BUILDER
+   -PSWD = 4522
