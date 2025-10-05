@@ -1,0 +1,22 @@
+# --- Build artifacts ---
+*.o
+*.obj
+*.exe
+*.out
+*.dll
+*.so
+*.a
+*.dylib
+
+# --- Build directories ---
+/us-acq/build/
+
+# --- IDE/editor junk ---
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
