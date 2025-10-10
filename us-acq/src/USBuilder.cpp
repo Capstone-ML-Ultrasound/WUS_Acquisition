@@ -1,6 +1,13 @@
 #include "USBuilder.h"
 #include <iostream>
 #include <string>
+#include <fstream>
+#include <chrono>
+#include <ctime>
+#include <iomanip> 
+#include <sstream> 
+#include <format>
+#include <filesystem>
 
 USBuilder::USBuilder(const std::string& portName): m_portName(portName), m_handle(INVALID_HANDLE_VALUE){}
 USBuilder::~USBuilder() { disconnect(); }
@@ -162,7 +169,54 @@ bool USBuilder::requestAscan8bit(int numPoints, std::vector<unsigned char>& outD
 }
 
 
+/**
+ *  Save samples collected into csv
+ */
+bool USBuilder::writeCSV(std::vector<unsigned char>& samples) {
+    // Obtain and format the current timestamp
+    auto now = std::chrono::system_clock::now();
+    std::time_t currentTime = std::chrono::system_clock::to_time_t(now);
+    std::tm* localTime = std::localtime(&currentTime);
 
+    std::stringstream ss;
+    ss << std::put_time(localTime, "%Y-%m-%d_%H-%M-%S"); 
+    std::string timestamp = ss.str();
 
+    // Create or ensure data directory exists 
+    std::filesystem::path cwd = std::filesystem::current_path();
+    std::filesystem::path data_dir = cwd / "data";
 
+    // Create the folder if it doesn’t exist
+    if (!std::filesystem::exists(data_dir)) {
+        try {
+            std::filesystem::create_directory(data_dir);
+            std::cout << "Created directory: " << data_dir << std::endl;
+        } catch (const std::filesystem::filesystem_error& e) {
+            std::cerr << "Error creating directory: " << e.what() << std::endl;
+            return false;
+        }
+    }
 
+    // Build full file path
+    std::string csv_name = "sample_" + timestamp + ".csv";
+    std::filesystem::path csv_location = data_dir / csv_name;
+
+    std::cout << "FILE NAME: " << csv_name << " Located: " << csv_location << std::endl;
+
+    // Open file for writing 
+    std::ofstream outputFile(csv_location, std::ios_base::app);
+    if (!outputFile.is_open()) {
+        std::cerr << "Error opening file: " << csv_location << std::endl;
+        perror("Reason");
+        return false;
+    }
+
+    // Write data 
+    for (unsigned char s : samples) {
+        outputFile << (int)s << std::endl;
+    }
+
+    outputFile.close();
+    std::cout << "Data saved to " << csv_location << std::endl;
+    return true;
+}
