@@ -24,9 +24,7 @@ int main(){
     // Step 2: Acquire a simple A-scan of 512 points
     std::vector<unsigned char> samples;
     if (dev.requestAscan8bit(512, samples)) {
-        std::cout << "GOT " << samples.size() << " samples. First 10:" << std::endl;
-        for (int i=0; i<10; i++) std::cout << (int)samples[i] << " ";
-        std::cout << std::endl;
+        dev.writeCSV(samples);
     } else {
         std::cerr << "ASCAN request failed" << std::endl;
     }

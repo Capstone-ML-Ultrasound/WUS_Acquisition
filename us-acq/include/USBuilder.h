@@ -15,6 +15,7 @@ public:
 
     bool requestFirmware(std::string& versionOut);
     bool requestAscan8bit(int numPoints, std::vector<unsigned char>& outData);
+    bool writeCSV(std::vector<unsigned char>& samples);
 
 private:
     std::string m_portName;

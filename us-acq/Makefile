@@ -1,6 +1,9 @@
 # Compiler settings
 CXX = g++
-CXXFLAGS = -std=c++11 -Wall -Iinclude
+CXXFLAGS = -std=c++17 -Wall -Iinclude
+
+# Linker flags (needed for older MinGW versions, safe for all)
+LDFLAGS = -lstdc++fs
 
 # App name
 APPNAME = us_acq
@@ -19,7 +22,7 @@ all: $(APPNAME).exe
 
 # Link step
 $(APPNAME).exe: $(OBJ)
-	$(CXX) $(CXXFLAGS) -o $@ $^
+	$(CXX) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
 
 # Compile step (make sure build dir exists)
 $(BUILDDIR)/%.o: $(SRCDIR)/%.cpp | $(BUILDDIR)
