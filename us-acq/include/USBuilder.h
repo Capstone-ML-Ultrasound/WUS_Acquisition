@@ -15,7 +15,9 @@ public:
 
     bool requestFirmware(std::string& versionOut);
     bool requestAscan8bit(int numPoints, std::vector<unsigned char>& outData);
+    bool requestAscan8bitBurst(int numPoints, int numFrames, std::vector<std::vector<unsigned char>>& outData);
     bool writeCSV(std::vector<unsigned char>& samples);
+    bool writeBurstCSV(const std::vector<std::vector<unsigned char>>& burstData); // TODO MERGE 2 CSV WRITING FUNTIONS TOGETHER 
 
 private:
     std::string m_portName;
