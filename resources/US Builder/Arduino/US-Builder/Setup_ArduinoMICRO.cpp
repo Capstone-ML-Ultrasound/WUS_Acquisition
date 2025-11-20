@@ -4,8 +4,9 @@
 void Setup_ArduinoMICRO()
 {
 Serial.begin(2000000);  // Serial at 2.000.000 bauds
-pinMode(E_MOSI,OUTPUT); // Digital Port D2 used for Enable_MOSI
-pinMode(E_MISO,OUTPUT); // Digital Port D3 used for Enable_MISO
+pinMode(E_MOSI,OUTPUT); // Digital Port D2 used for Enable_MOSI -> Master Out Slave In
+pinMode(E_MISO,OUTPUT); // Digital Port D3 used for Enable_MISO -> Master In Slave Out 
+
 pinMode(mabt,OUTPUT);   // Digital Port D5 used for Enable Bluetooth
 
 digitalWrite(E_MOSI,1); // 1=Disable => See SPI_Mode1 => Enable_MOSI is active at 0 level

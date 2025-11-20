@@ -49,6 +49,33 @@ void ReadSamples(int passe,int Nb, byte type)
   }
 }
 
+// I added those -Leo
+
+void SEND_SAMPLING_REQ_bin()
+{
+  digitalWrite(E_MOSI, 0); 
+  
+  SPI.transfer(ADDR_Start);
+  
+  digitalWrite(E_MOSI, 1);
+
+}
+
+void SEND_AUTO_SAMPLING_REQ_bin(unsigned int samples_bin)
+{
+  byte samples_lsb, samples_msb;
+  samples_lsb = samples_bin & 0xFF;
+  samples_msb = (samples_bin >> 8) & 0xFF;
+
+  digitalWrite(E_MOSI, 0);
+  
+  SPI.transfer(ADDR_NbSamples);
+  SPI.transfer(samples_msb);
+  SPI.transfer(samples_lsb);
+  
+  digitalWrite(E_MOSI, 1);
+}
+
 
 void SEND_GAIN_bin(unsigned int Gain_bin)
 {

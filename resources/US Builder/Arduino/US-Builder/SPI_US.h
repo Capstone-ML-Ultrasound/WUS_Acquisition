@@ -1,6 +1,9 @@
-
 void SEND_BYTES(byte Len);
 void ReadSamples(int passe,int Nb, byte type);
+
+// Added by Leo ^_^
+void SEND_SAMPLING_REQ_bin();
+void SEND_AUTO_SAMPLING_REQ_bin(unsigned int );
 
 void SEND_GAIN_dB(double Gain_dB);
 void SEND_GAIN_bin(unsigned int Gain_bin);

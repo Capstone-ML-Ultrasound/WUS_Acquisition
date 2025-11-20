@@ -29,9 +29,13 @@ void Setup_US()
   SEND_ANALOGSETPOLARITY_bin(ANALOG_TOTAL,ANALOG_TOTAL,ANALOG_TOTAL,BOTH_WAVES);    // ANALOG1 = OFF / ANALOG2 = OFF / ANALOG3 = OFF / Polarity = Both waves !!! All gates control the same polarity !!!
   SEND_ALDELAY_bin(0,0);             // Duration = 0 / All Alarms = 0 => On Appears
 
+  
+
   SEND_NBSAMPLES_bin(4090);         // Only used for AUTOMATIC A-scan storage => Unused, here
   SEND_ONOFFDAC(1);                 // DAC OFF - Mode Read
   SEND_READPORT(ASCAN_8bit);
  
   
 }
+
+// TO DO ADD LOGGING FOR CONFIG AND SOME KIND OF CLASS FOR CONFIG SETUP TO REMOVE ALL THESE CALLS 

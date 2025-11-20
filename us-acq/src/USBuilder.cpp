@@ -145,7 +145,7 @@ bool USBuilder::requestFirmware(std::string& versionOut) {
  * NOte -- if the request is bad -- it will give all 50's back to you (dummy data)
  */
 bool USBuilder::requestAscan8bit(int numPoints, std::vector<unsigned char>& outData) {
-    if (numPoints <= 0 || numPoints > 4000){
+    if (numPoints <= 0 || numPoints > 4090){
          return false;
     }
 
@@ -179,7 +179,7 @@ bool USBuilder::requestAscan8bit(int numPoints, std::vector<unsigned char>& outD
  * Note -- if the request is bad -- it will give all 50's back to you (dummy data)
  */
 bool USBuilder::requestAscan8bitBurst(int numPoints, int numFrames, std::vector<std::vector<unsigned char>>& outBurstData) {
-    if (numPoints <= 0 || numPoints > 4000){
+    if (numPoints <= 0 || numPoints > 4090){
             return false;
         }
     

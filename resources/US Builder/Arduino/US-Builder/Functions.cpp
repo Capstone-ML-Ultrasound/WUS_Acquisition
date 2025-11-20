@@ -2,7 +2,7 @@
 #include "Variables_Functions.h"
 #include "SPI_US.h"
 
-extern byte buffer[10];
+extern byte buffer[10]; // defined in 
 extern byte versionFW;
 byte BlueTooth;
 

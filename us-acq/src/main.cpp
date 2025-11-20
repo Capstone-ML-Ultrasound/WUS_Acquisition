@@ -7,7 +7,7 @@
 int main(){
 
     // Instantiate device on COM4 (adjust if needed)
-    USBuilder dev("\\\\.\\COM3"); // TODO automate to automatically find correct port 
+    USBuilder dev("\\\\.\\COM4"); // TODO automate to automatically find correct port 
 
     // Connect to device
     if (!dev.connect()){ 
@@ -26,18 +26,20 @@ int main(){
     auto start = std::chrono::high_resolution_clock::now();
     
     std::vector<unsigned char> samples;
-    
-    if (dev.requestAscan8bit(512, samples)) {
+    /*
+    if (dev.requestAscan8bit(50, samples)) {
         end = std::chrono::high_resolution_clock::now();
         dev.writeCSV(samples);
 
     } else {
         std::cerr << "ASCAN request failed" << std::endl;
     }
-
+    */
+    
     std::vector<std::vector<unsigned char>> burstData;
 
-    if (dev.requestAscan8bitBurst(512, 100, burstData)) {
+    if (dev.requestAscan8bitBurst(4090, 1000, burstData)) {
+        end = std::chrono::high_resolution_clock::now();
         dev.writeBurstCSV(burstData);
 
     } else {
@@ -48,7 +50,7 @@ int main(){
     dev.disconnect();
     
     std::chrono::duration<double, std::milli> duration_ms = end - start;
-    std::cout << "Time for a single scan 512 pts scan: " << duration_ms.count() << "ms" << std::endl;
+    std::cout << "Time for Burst Acquisition " << duration_ms.count() << "ms" << std::endl;
     
     return 0;
 

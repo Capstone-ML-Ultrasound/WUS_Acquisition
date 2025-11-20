@@ -8,8 +8,9 @@
 *.a
 *.dylib
 
-# --- Build directories ---
+# --- Build/Data directories ---
 /us-acq/build/
+us-acq/data/
 
 # --- IDE/editor junk ---
 .vscode/
