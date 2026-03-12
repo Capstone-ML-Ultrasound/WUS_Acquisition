@@ -1,4 +1,4 @@
-# coding: utf-8
+# SWAP THIS FILE WITH THE ONE IN THE ROOT DIRECTORY TO FIX DLL LOADING ERROR 
 """Find the path to TL2cgen dynamic library files."""
 
 import ctypes

@@ -1,0 +1,20 @@
+{
+  "file_format_version" : "1.0.0",
+  "api_layer": {
+    "name": "XR_APILAYER_ULTRALEAP_hand_tracking",
+    "library_path": "./UltraleapHandTracking.dll",
+    "api_version" : "1.0",
+    "implementation_version" : "1",
+    "description" : "Ultraleap OpenXR Hand Tracking",
+    "instance_extensions": [
+      { "name": "XR_EXT_hand_tracking",               "extension_version": 4 },
+      { "name": "XR_EXT_hand_joints_motion_range",    "extension_version": 1 },
+      { "name": "XR_EXT_hand_tracking_data_source",   "extension_version": 1 },
+      { "name": "XR_MSFT_hand_interaction",           "extension_version": 1 },
+      { "name": "XR_FB_hand_tracking_aim",            "extension_version": 2 },
+      { "name": "XR_ULTRALEAP_hand_tracking_forearm", "extension_version": 1 },
+      { "name": "XR_ULTRALEAP_hand_tracking_hints",   "extension_version": 1 }
+    ],
+    "disable_environment": "DISABLE_XR_APILAYER_ULTRALEAP_HAND_TRACKING_1"
+  }
+}

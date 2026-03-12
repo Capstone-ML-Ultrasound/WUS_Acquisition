@@ -1,0 +1,18 @@
+{
+  "allow_images": true,
+  "allow_pause_resume": true,
+  "auto_exposure_screentop_enabled": false,
+  "auto_exposure_desktop_enabled": true,
+  "auto_exposure_hmd_enabled": false,
+  "broadcast_server_ip": "127.0.0.1",
+  "broadcast_server_port": "1024",
+  "cameras": {},
+  "diagnostic_client_scaling": false,
+  "paused": false,
+  "use_noise_correction": false,
+  "use_squishy_hands": true,
+  "frame_subtraction": false,
+  "scale_factor": 1.0,
+  "no_video_device_reboot_timeout": 3000,
+  "no_imu_device_reboot_timeout": 1500
+}

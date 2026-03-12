@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Program Files\Ultraleap\LeapSDK\samples\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Program Files\Ultraleap\LeapSDK\samples\build\Debug\CallbackSample.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Program Files\Ultraleap\LeapSDK\samples\build\Debug\CheckLicenseFlagSample.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Program Files\Ultraleap\LeapSDK\samples\build\Debug\FiducialTrackingSample.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Program Files\Ultraleap\LeapSDK\samples\build\Debug\ImageSample.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Program Files\Ultraleap\LeapSDK\samples\build\Debug\InterpolationSample.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Program Files\Ultraleap\LeapSDK\samples\build\Debug\MultiDeviceSample.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Program Files\Ultraleap\LeapSDK\samples\build\Debug\PollingSample.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Program Files\Ultraleap\LeapSDK\samples\build\Debug\leapc_example.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Program Files\Ultraleap\LeapSDK\samples\build\x64\Debug\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

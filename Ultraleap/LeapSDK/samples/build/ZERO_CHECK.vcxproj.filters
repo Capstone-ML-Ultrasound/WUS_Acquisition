@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Program Files\Ultraleap\LeapSDK\samples\build\CMakeFiles\2f0ad8e4d626c93638398936f1945c44\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9C480BCE-6CD1-35BD-A0A6-9075511C9B76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

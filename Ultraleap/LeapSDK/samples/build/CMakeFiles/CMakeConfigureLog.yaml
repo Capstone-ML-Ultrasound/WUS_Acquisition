@@ -1,0 +1,1478 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\leode\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\leode\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\libnvvp"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Python\\Python313"
+        - "C:\\Python\\Python313\\Scripts"
+        - "C:\\conda\\condabin"
+        - "C:\\conda\\Scripts"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\ffmpeg-8.0.1-essentials_build\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.4.1\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\leode\\AppData\\Local\\Microsoft VS Code\\bin"
+        - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.23+b0019275e for .NET Framework
+      Build started 2026-03-12 1:45:13 PM.
+      
+      Project "C:\\Program Files\\Ultraleap\\LeapSDK\\samples\\build\\CMakeFiles\\4.2.1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Program Files\\Ultraleap\\LeapSDK\\samples\\build\\CMakeFiles\\4.2.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Program Files\\Ultraleap\\LeapSDK\\samples\\build\\CMakeFiles\\4.2.1\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.77
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Program Files/Ultraleap/LeapSDK/samples/build/CMakeFiles/4.2.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Python/Python313/"
+      - "C:/Python/Python313/Scripts/"
+      - "C:/conda/condabin/"
+      - "C:/conda/Scripts/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/ffmpeg-8.0.1-essentials_build/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.1/"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/leode/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/leode/AppData/Local/Microsoft VS Code/bin/"
+      - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\leode\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\leode\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\libnvvp"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Python\\Python313"
+        - "C:\\Python\\Python313\\Scripts"
+        - "C:\\conda\\condabin"
+        - "C:\\conda\\Scripts"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\ffmpeg-8.0.1-essentials_build\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.4.1\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\leode\\AppData\\Local\\Microsoft VS Code\\bin"
+        - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Python/Python313/"
+      - "C:/Python/Python313/Scripts/"
+      - "C:/conda/condabin/"
+      - "C:/conda/Scripts/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/ffmpeg-8.0.1-essentials_build/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.1/"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/leode/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/leode/AppData/Local/Microsoft VS Code/bin/"
+      - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.com"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.exe"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/lld-link.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/lld-link.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/lld-link"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/lld-link.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/lld-link.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/lld-link"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin/lld-link.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin/lld-link.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin/lld-link"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp/lld-link.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp/lld-link.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Python/Python313/lld-link.com"
+      - "C:/Python/Python313/lld-link.exe"
+      - "C:/Python/Python313/lld-link"
+      - "C:/Python/Python313/Scripts/lld-link.com"
+      - "C:/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Python/Python313/Scripts/lld-link"
+      - "C:/conda/condabin/lld-link.com"
+      - "C:/conda/condabin/lld-link.exe"
+      - "C:/conda/condabin/lld-link"
+      - "C:/conda/Scripts/lld-link.com"
+      - "C:/conda/Scripts/lld-link.exe"
+      - "C:/conda/Scripts/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/MATLAB/R2025b/bin/lld-link.com"
+      - "C:/Program Files/MATLAB/R2025b/bin/lld-link.exe"
+      - "C:/Program Files/MATLAB/R2025b/bin/lld-link"
+      - "C:/msys64/ucrt64/bin/lld-link.com"
+      - "C:/msys64/ucrt64/bin/lld-link.exe"
+      - "C:/msys64/ucrt64/bin/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/Tailscale/lld-link.com"
+      - "C:/Program Files/Tailscale/lld-link.exe"
+      - "C:/Program Files/Tailscale/lld-link"
+      - "C:/ffmpeg-8.0.1-essentials_build/bin/lld-link.com"
+      - "C:/ffmpeg-8.0.1-essentials_build/bin/lld-link.exe"
+      - "C:/ffmpeg-8.0.1-essentials_build/bin/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.1/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.1/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.1/lld-link"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/Scripts/lld-link.com"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/Scripts/lld-link.exe"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/Scripts/lld-link"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/lld-link.com"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/lld-link.exe"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/lld-link"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/leode/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/leode/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/leode/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/leode/AppData/Local/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/leode/AppData/Local/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/leode/AppData/Local/Microsoft VS Code/bin/lld-link"
+      - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/lld-link.com"
+      - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/lld-link.exe"
+      - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\leode\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\leode\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\libnvvp"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Python\\Python313"
+        - "C:\\Python\\Python313\\Scripts"
+        - "C:\\conda\\condabin"
+        - "C:\\conda\\Scripts"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\ffmpeg-8.0.1-essentials_build\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.4.1\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\leode\\AppData\\Local\\Microsoft VS Code\\bin"
+        - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Python/Python313/"
+      - "C:/Python/Python313/Scripts/"
+      - "C:/conda/condabin/"
+      - "C:/conda/Scripts/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/ffmpeg-8.0.1-essentials_build/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.1/"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/leode/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/leode/AppData/Local/Microsoft VS Code/bin/"
+      - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\leode\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\leode\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\libnvvp"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Python\\Python313"
+        - "C:\\Python\\Python313\\Scripts"
+        - "C:\\conda\\condabin"
+        - "C:\\conda\\Scripts"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\ffmpeg-8.0.1-essentials_build\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.4.1\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\leode\\AppData\\Local\\Microsoft VS Code\\bin"
+        - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Python/Python313/"
+      - "C:/Python/Python313/Scripts/"
+      - "C:/conda/condabin/"
+      - "C:/conda/Scripts/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/ffmpeg-8.0.1-essentials_build/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.1/"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/leode/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/leode/AppData/Local/Microsoft VS Code/bin/"
+      - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.com"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.exe"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt.com"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt.exe"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/mt.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/mt.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/mt"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/mt.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/mt.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/mt"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin/mt.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin/mt.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin/mt"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp/mt.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp/mt.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Python/Python313/mt.com"
+      - "C:/Python/Python313/mt.exe"
+      - "C:/Python/Python313/mt"
+      - "C:/Python/Python313/Scripts/mt.com"
+      - "C:/Python/Python313/Scripts/mt.exe"
+      - "C:/Python/Python313/Scripts/mt"
+      - "C:/conda/condabin/mt.com"
+      - "C:/conda/condabin/mt.exe"
+      - "C:/conda/condabin/mt"
+      - "C:/conda/Scripts/mt.com"
+      - "C:/conda/Scripts/mt.exe"
+      - "C:/conda/Scripts/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/MATLAB/R2025b/bin/mt.com"
+      - "C:/Program Files/MATLAB/R2025b/bin/mt.exe"
+      - "C:/Program Files/MATLAB/R2025b/bin/mt"
+      - "C:/msys64/ucrt64/bin/mt.com"
+      - "C:/msys64/ucrt64/bin/mt.exe"
+      - "C:/msys64/ucrt64/bin/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Program Files/Tailscale/mt.com"
+      - "C:/Program Files/Tailscale/mt.exe"
+      - "C:/Program Files/Tailscale/mt"
+      - "C:/ffmpeg-8.0.1-essentials_build/bin/mt.com"
+      - "C:/ffmpeg-8.0.1-essentials_build/bin/mt.exe"
+      - "C:/ffmpeg-8.0.1-essentials_build/bin/mt"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.1/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.1/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.1/mt"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/Scripts/mt.com"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/Scripts/mt.exe"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/Scripts/mt"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/mt.com"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/mt.exe"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/mt"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Launcher/mt.com"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Launcher/mt.exe"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Launcher/mt"
+      - "C:/Users/leode/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/leode/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/leode/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/leode/AppData/Local/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/leode/AppData/Local/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/leode/AppData/Local/Microsoft VS Code/bin/mt"
+      - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/mt.com"
+      - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/mt.exe"
+      - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\leode\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\leode\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\libnvvp"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Python\\Python313"
+        - "C:\\Python\\Python313\\Scripts"
+        - "C:\\conda\\condabin"
+        - "C:\\conda\\Scripts"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\ffmpeg-8.0.1-essentials_build\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.4.1\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\leode\\AppData\\Local\\Microsoft VS Code\\bin"
+        - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Python/Python313/"
+      - "C:/Python/Python313/Scripts/"
+      - "C:/conda/condabin/"
+      - "C:/conda/Scripts/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/ffmpeg-8.0.1-essentials_build/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.1/"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/leode/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/leode/AppData/Local/Microsoft VS Code/bin/"
+      - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\leode\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\leode\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\libnvvp"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Python\\Python313"
+        - "C:\\Python\\Python313\\Scripts"
+        - "C:\\conda\\condabin"
+        - "C:\\conda\\Scripts"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\ffmpeg-8.0.1-essentials_build\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.4.1\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\leode\\AppData\\Local\\Microsoft VS Code\\bin"
+        - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:580 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:553 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Python/Python313/"
+      - "C:/Python/Python313/Scripts/"
+      - "C:/conda/condabin/"
+      - "C:/conda/Scripts/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/ffmpeg-8.0.1-essentials_build/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.1/"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/leode/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/leode/AppData/Local/Microsoft VS Code/bin/"
+      - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/leapc_example/bin/"
+      - "C:/Program Files (x86)/leapc_example/sbin/"
+      - "C:/Program Files (x86)/leapc_example/"
+    searched_directories:
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.com"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.exe"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc.com"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc.exe"
+      - "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/rc.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/rc.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/rc"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/rc.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/rc.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/rc"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin/rc.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin/rc.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin/rc"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp/rc.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp/rc.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Python/Python313/rc.com"
+      - "C:/Python/Python313/rc.exe"
+      - "C:/Python/Python313/rc"
+      - "C:/Python/Python313/Scripts/rc.com"
+      - "C:/Python/Python313/Scripts/rc.exe"
+      - "C:/Python/Python313/Scripts/rc"
+      - "C:/conda/condabin/rc.com"
+      - "C:/conda/condabin/rc.exe"
+      - "C:/conda/condabin/rc"
+      - "C:/conda/Scripts/rc.com"
+      - "C:/conda/Scripts/rc.exe"
+      - "C:/conda/Scripts/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/MATLAB/R2025b/bin/rc.com"
+      - "C:/Program Files/MATLAB/R2025b/bin/rc.exe"
+      - "C:/Program Files/MATLAB/R2025b/bin/rc"
+      - "C:/msys64/ucrt64/bin/rc.com"
+      - "C:/msys64/ucrt64/bin/rc.exe"
+      - "C:/msys64/ucrt64/bin/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/rc.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/rc.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/rc"
+      - "C:/Program Files/Tailscale/rc.com"
+      - "C:/Program Files/Tailscale/rc.exe"
+      - "C:/Program Files/Tailscale/rc"
+      - "C:/ffmpeg-8.0.1-essentials_build/bin/rc.com"
+      - "C:/ffmpeg-8.0.1-essentials_build/bin/rc.exe"
+      - "C:/ffmpeg-8.0.1-essentials_build/bin/rc"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.1/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.1/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.1/rc"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/Scripts/rc.com"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/Scripts/rc.exe"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/Scripts/rc"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/rc.com"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/rc.exe"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Python312/rc"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/leode/AppData/Local/Programs/Python/Launcher/rc"
+      - "C:/Users/leode/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/leode/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/leode/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/leode/AppData/Local/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/leode/AppData/Local/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/leode/AppData/Local/Microsoft VS Code/bin/rc"
+      - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/rc.com"
+      - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/rc.exe"
+      - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/leapc_example/bin/rc.com"
+      - "C:/Program Files (x86)/leapc_example/bin/rc.exe"
+      - "C:/Program Files (x86)/leapc_example/bin/rc"
+      - "C:/Program Files (x86)/leapc_example/sbin/rc.com"
+      - "C:/Program Files (x86)/leapc_example/sbin/rc.exe"
+      - "C:/Program Files (x86)/leapc_example/sbin/rc"
+      - "C:/Program Files (x86)/leapc_example/rc.com"
+      - "C:/Program Files (x86)/leapc_example/rc.exe"
+      - "C:/Program Files (x86)/leapc_example/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\leode\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\leode\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\libnvvp"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Python\\Python313"
+        - "C:\\Python\\Python313\\Scripts"
+        - "C:\\conda\\condabin"
+        - "C:\\conda\\Scripts"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\ffmpeg-8.0.1-essentials_build\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.4.1\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\leode\\AppData\\Local\\Microsoft VS Code\\bin"
+        - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/leapc_example"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/leapc_example"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Program Files/Ultraleap/LeapSDK/samples/build/CMakeFiles/CMakeScratch/TryCompile-yr57hz"
+      binary: "C:/Program Files/Ultraleap/LeapSDK/samples/build/CMakeFiles/CMakeScratch/TryCompile-yr57hz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Program Files/Ultraleap/LeapSDK/samples/build/CMakeFiles/CMakeScratch/TryCompile-yr57hz'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_955b6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 2026-03-12 1:45:15 PM.
+        
+        Project "C:\\Program Files\\Ultraleap\\LeapSDK\\samples\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yr57hz\\cmTC_955b6.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Program Files\\Ultraleap\\LeapSDK\\samples\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yr57hz\\Debug\\".
+          Creating directory "cmTC_955b6.dir\\Debug\\cmTC_955b6.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_955b6.dir\\Debug\\cmTC_955b6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_955b6.dir\\Debug\\cmTC_955b6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_955b6.dir\\Debug\\\\" /Fd"cmTC_955b6.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_955b6.dir\\Debug\\\\" /Fd"cmTC_955b6.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Program Files\\Ultraleap\\LeapSDK\\samples\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yr57hz\\Debug\\cmTC_955b6.exe" /INCREMENTAL /ILK:"cmTC_955b6.dir\\Debug\\cmTC_955b6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Program Files/Ultraleap/LeapSDK/samples/build/CMakeFiles/CMakeScratch/TryCompile-yr57hz/Debug/cmTC_955b6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Program Files/Ultraleap/LeapSDK/samples/build/CMakeFiles/CMakeScratch/TryCompile-yr57hz/Debug/cmTC_955b6.lib" /MACHINE:X64  /machine:x64 cmTC_955b6.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_955b6.vcxproj -> C:\\Program Files\\Ultraleap\\LeapSDK\\samples\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yr57hz\\Debug\\cmTC_955b6.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_955b6.dir\\Debug\\cmTC_955b6.tlog\\unsuccessfulbuild".
+          Touching "cmTC_955b6.dir\\Debug\\cmTC_955b6.tlog\\cmTC_955b6.lastbuildstate".
+        Done Building Project "C:\\Program Files\\Ultraleap\\LeapSDK\\samples\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yr57hz\\cmTC_955b6.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.49
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35222.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:14 (find_package)"
+    name: "LeapSDK"
+    configs:
+      -
+        filename: "LeapSDKConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "leapsdk-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6"
+      version_complete: "6"
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "LeapSDK"
+      search_paths:
+        - "C:\\Program Files/Ultraleap"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Program Files/Ultraleap/LeapSDK/samples/build/CMakeFiles/pkgRedirects/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Ultraleap/LeapSDK/samples/build/CMakeFiles/pkgRedirects/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/leode/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python/Python313/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python/Python313/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python/Python313/Scripts/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python/Python313/Scripts/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/conda/condabin/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/conda/condabin/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/conda/Scripts/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/conda/Scripts/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MATLAB/R2025b/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MATLAB/R2025b/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/msys64/ucrt64/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/msys64/ucrt64/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Tailscale/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Tailscale/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ffmpeg-8.0.1-essentials_build/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ffmpeg-8.0.1-essentials_build/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.1/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.1/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/leode/AppData/Local/Programs/Python/Python312/Scripts/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/leode/AppData/Local/Programs/Python/Python312/Scripts/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/leode/AppData/Local/Programs/Python/Python312/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/leode/AppData/Local/Programs/Python/Python312/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/leode/AppData/Local/Programs/Python/Launcher/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/leode/AppData/Local/Programs/Python/Launcher/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/leode/AppData/Local/Microsoft/WindowsApps/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/leode/AppData/Local/Microsoft/WindowsApps/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/leode/AppData/Local/Microsoft VS Code/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/leode/AppData/Local/Microsoft VS Code/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/intelFPGA/18.1/modelsim_ase/win32aloem/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/intelFPGA/18.1/modelsim_ase/win32aloem/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Ultraleap/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Ultraleap/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Ultraleap/LeapSDK/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Ultraleap/LeapSDK/leapsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Ultraleap/LeapSDK/lib/cmake/LeapSDK/LeapSDKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/Program Files/Ultraleap/LeapSDK/lib/cmake/LeapSDK/leapsdk-config.cmake"
+      mode: "config"
+      version: "6.2.0.0"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\leode\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\leode\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\libnvvp"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Python\\Python313"
+        - "C:\\Python\\Python313\\Scripts"
+        - "C:\\conda\\condabin"
+        - "C:\\conda\\Scripts"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\ffmpeg-8.0.1-essentials_build\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.4.1\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\leode\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\leode\\AppData\\Local\\Microsoft VS Code\\bin"
+        - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/leapc_example"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/leapc_example"
+...

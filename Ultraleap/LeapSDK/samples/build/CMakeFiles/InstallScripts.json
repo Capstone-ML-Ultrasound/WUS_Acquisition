@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Program Files/Ultraleap/LeapSDK/samples/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
