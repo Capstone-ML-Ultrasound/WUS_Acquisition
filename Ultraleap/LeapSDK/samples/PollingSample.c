@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include <math.h>
+#include <time.h>
 
 #ifdef _WIN32
 #include <Windows.h>
@@ -45,6 +46,41 @@ static uint64_t now_ms(void) {
   return GetTickCount64();
 #else
   return 0;
+#endif
+}
+
+static uint64_t now_unix_ns(void) {
+#ifdef _WIN32
+  typedef VOID (WINAPI *GetSystemTimePreciseAsFileTimeFn)(LPFILETIME);
+  FILETIME file_time;
+  ULARGE_INTEGER ticks;
+  HMODULE kernel32_module = GetModuleHandleW(L"kernel32.dll");
+  GetSystemTimePreciseAsFileTimeFn get_precise_time = NULL;
+
+  if (kernel32_module) {
+    get_precise_time = (GetSystemTimePreciseAsFileTimeFn)GetProcAddress(
+      kernel32_module,
+      "GetSystemTimePreciseAsFileTime"
+    );
+  }
+
+  if (get_precise_time) {
+    get_precise_time(&file_time);
+  } else {
+    GetSystemTimeAsFileTime(&file_time);
+  }
+
+  ticks.LowPart = file_time.dwLowDateTime;
+  ticks.HighPart = file_time.dwHighDateTime;
+
+  return (uint64_t)((ticks.QuadPart - 116444736000000000ULL) * 100ULL);
+#else
+  struct timespec ts;
+
+  if (clock_gettime(CLOCK_REALTIME, &ts) != 0)
+    return 0;
+
+  return ((uint64_t)ts.tv_sec * 1000000000ULL) + (uint64_t)ts.tv_nsec;
 #endif
 }
 
@@ -287,7 +323,7 @@ int main(void) {
 
   fprintf(
     fp,
-    "frame_id,timestamp_us,hand_id,hand_type,"
+    "frame_id,timestamp_unix_ns,hand_id,hand_type,"
     "pronation_supination_deg,flexion_extension_deg,deviation_deg\n"
   );
   fflush(fp);
@@ -297,6 +333,7 @@ int main(void) {
 
     if (frame && frame->tracking_frame_id > lastFrameID) {
       uint32_t h;
+      uint64_t timestamp_unix_ns;
       lastFrameID = frame->tracking_frame_id;
 
       if (!neutral_locked) {
@@ -335,6 +372,8 @@ int main(void) {
         continue;
       }
 
+      timestamp_unix_ns = now_unix_ns();
+
       for (h = 0; h < frame->nHands; h++) {
         LEAP_HAND* hand = &frame->pHands[h];
         const char* handType =
@@ -355,9 +394,9 @@ int main(void) {
 
         fprintf(
           fp,
-          "%lld,%lld,%u,%s,%.6f,%.6f,%.6f\n",
+          "%lld,%llu,%u,%s,%.6f,%.6f,%.6f\n",
           (long long)frame->tracking_frame_id,
-          (long long)frame->info.timestamp,
+          (unsigned long long)timestamp_unix_ns,
           hand->id,
           handType,
           pron,
